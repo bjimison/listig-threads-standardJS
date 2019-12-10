@@ -1,0 +1,28 @@
+.section {
+    border: 3px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+}
+
+body {
+  /* background-image: url(""); */
+}
+
+img {
+    height: 37%;
+    width: 50%;
+}
+
+/* @media only screen and (max-width: 790px) {
+	
+} */
+
+/* @media only screen and (max-width: 650px) {
+	
+} */
