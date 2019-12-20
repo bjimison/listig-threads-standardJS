@@ -1,15 +1,28 @@
 body {
-    background-color: beige;
+    background-color: rgb(240, 240, 240);
 }
 
 h1 {
     text-align: center;
 }
 
+h2 {
+    align-self: center;
+}
+
+img {
+    margin: 10px;
+    height: 22%;
+    width: 35%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
 .hat {
-    background-color: azure;
-    border: 3px solid;
-    border-radius: 5px;
+    background-color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -25,7 +38,7 @@ h1 {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0, 0.7);
-    position: absolute;
+    position: fixed;
     top: 0;
     display: none;
     justify-content: center;
@@ -64,20 +77,6 @@ h1 {
     cursor: pointer;
 }
 
-body {
-  /* background-image: url(""); */
-}
-
-h2 {
-    align-self: center;
-}
-
-img {
-    margin: 10px;
-    height: 22%;
-    width: 35%;
-}
-
 /* .button {
     align-self: center;
     height: 5%;
@@ -108,8 +107,37 @@ img {
     -o-border-radius: 20px;
 }
 
+#black-btn {
+    align-self: center;
+    height: 5%;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0495c9;
+    border-color: #47a4f5;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
-.button:hover {
+#brown-btn {
+    align-self: center;
+    height: 5%;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0495c9;
+    border-color: #47a4f5;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#camo-btn:hover, #black-btn:hover, #brown-btn:hover {
     background-color: #000FFF;
 }
 
